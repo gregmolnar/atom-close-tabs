@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.tab':
+      'Close': 'close-tabs:close'
+      'Close all others': 'close-tabs:close_others'
+      'Close Tabs to the right': 'close-tabs:close_right'
+      'Close Tabs to the left': 'close-tabs:close_left'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'close-tabs'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'close-tabs:toggle' }
+      ]
+    ]
+  }
+]

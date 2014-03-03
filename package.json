@@ -1,0 +1,16 @@
+{
+  "name": "close-tabs",
+  "main": "./lib/close-tabs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Close tabs from a context window",
+  "activationEvents": ["close-tabs:toggle", "close-tabs:close", "close-tabs:close_others", "close-tabs:close_left", "close-tabs:close_right"],
+  "repository": "https://github.com/atom/close-tabs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "jQuery": "1.7.x"
+  }
+}
