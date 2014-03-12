@@ -1,3 +1,4 @@
+# THIS IS SUPPORTED IN THE CORE OF ATOM NOW
 # close-tabs package
 
 This package adds a context menu to the tabs where you can close the selected one or the other tabs.
